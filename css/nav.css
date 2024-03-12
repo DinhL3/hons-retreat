@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+nav {
+  background-color: var(--dark-pink-1);
+  display: flex;
+  justify-content: center;
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    h4 {
+      color: white;
+      font-family: 'Bad Script', cursive;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-left: 1rem;
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+
+    &:hover {
+      color: var(--light-pink-3);
+    }
+  }
+}

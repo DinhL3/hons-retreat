@@ -1,0 +1,54 @@
+:root {
+  --dark-pink-5: #590d22;
+  --dark-pink-4: #800f2f;
+  --dark-pink-3: #a4133c;
+  --dark-pink-2: #c9184a;
+  --dark-pink-1: #ff4d6d;
+  --light-pink-5: #ff758f;
+  --light-pink-4: #ff8fa3;
+  --light-pink-3: #ffb3c1;
+  --light-pink-2: #ffccd5;
+  --light-pink-1: #fff0f3;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'sans-serif', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: var(--dark-pink-1);
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-pink-2);
+
+  &:hover {
+    color: var(--dark-pink-1);
+  }
+}
+
+footer {
+  font-size: 0.8rem;
+}
