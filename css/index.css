@@ -1,5 +1,5 @@
 :root {
-  --dark-pink-5: #590d22;
+  /* --dark-pink-5: #590d22;
   --dark-pink-4: #800f2f;
   --dark-pink-3: #a4133c;
   --dark-pink-2: #c9184a;
@@ -8,14 +8,17 @@
   --light-pink-4: #ff8fa3;
   --light-pink-3: #ffb3c1;
   --light-pink-2: #ffccd5;
-  --light-pink-1: #fff0f3;
+  --light-pink-1: #fff0f3; */
+  --light-green: #dde5b6;
+  --leaf-green: #adc178;
+  --cream-white: #f0ead2;
+  --light-brown: #a98467;
+  --dark-brown: #6c584c;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Inter', 'sans-serif', sans-serif;
+  font-family: 'Work Sans', 'sans-serif', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,9 +28,9 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 700;
-  color: var(--dark-pink-1);
+  color: var(--olive-green);
   margin-bottom: 1rem;
 }
 
@@ -37,18 +40,35 @@ h3,
 h4,
 h5,
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 a {
+  transition: 0.2s;
   text-decoration: none;
-  color: var(--dark-pink-2);
+  color: var(--olive-green);
 
   &:hover {
-    color: var(--dark-pink-1);
+    color: var(--dark-olive-green);
   }
 }
 
 footer {
   font-size: 0.8rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: var(--leaf-green);
+  }
 }
