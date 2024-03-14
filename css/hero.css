@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  color: white;
+  height: 700px;
 
   .hero__img {
     position: absolute;
@@ -32,10 +32,12 @@
     h1 {
       font-size: 3rem;
       font-family: 'Bad Script', cursive;
+      color: white;
     }
 
     p {
       font-size: 1.4rem;
+      color: white;
     }
 
     .button {
