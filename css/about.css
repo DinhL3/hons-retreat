@@ -1,0 +1,33 @@
+.about-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.about {
+  display: flex;
+  max-width: 1024px;
+  width: 100%;
+  justify-content: space-between;
+
+  .about__left {
+    flex-basis: 50%;
+
+    h1 {
+      font-family: 'Bad Script', cursive;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+  }
+
+  .about__right {
+    flex-basis: 40%;
+
+    img {
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+}
