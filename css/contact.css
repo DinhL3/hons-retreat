@@ -4,44 +4,4 @@
   max-width: 500px;
   width: 100%;
   align-items: center;
-
-  form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    width: 100%;
-    align-items: center;
-
-    label,
-    input {
-      display: block;
-    }
-
-    label {
-      align-self: flex-start;
-      margin-bottom: 0.5rem;
-    }
-
-    input,
-    textarea {
-      box-sizing: border-box;
-      width: 100%;
-      padding: 0.5rem;
-      border: 1px solid lightgray;
-      border-radius: 5px;
-      margin-bottom: 1rem;
-
-      &:focus {
-        outline: 2px solid #adc178;
-      }
-    }
-
-    textarea {
-      height: 200px;
-    }
-
-    a {
-      margin-top: 1rem;
-    }
-  }
 }

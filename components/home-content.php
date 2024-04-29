@@ -11,7 +11,7 @@
                 Enjoy the beauty of nature and the tranquility of the great
                 outdoors.
             </p>
-            <a href="packages.php" class="button">Order a package</a>
+            <a href="order.php" class="button">Order a package</a>
         </div>
     </div>
 </section>

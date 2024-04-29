@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/form.css" />
     <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon" />
     <title>Contact</title>
 </head>

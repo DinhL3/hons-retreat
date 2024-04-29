@@ -1,0 +1,55 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 100%;
+  align-items: center;
+
+  .form-section {
+    margin-bottom: 2rem;
+  }
+
+  .form-header {
+    margin-bottom: 0.5rem;
+    color: ;
+  }
+
+  label {
+    align-self: flex-start;
+    margin-bottom: 0.5rem;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'],
+  input[type='number'],
+  textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+    &:focus {
+      outline: 2px solid #adc178;
+    }
+  }
+
+  input[type='number'] {
+    max-width: 100px;
+  }
+
+  .order__form-radio {
+    align-self: flex-start;
+  }
+
+  input[type='radio'] {
+    /* Your styles here */
+  }
+
+  textarea {
+    height: 200px;
+  }
+}
