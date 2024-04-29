@@ -1,7 +1,7 @@
-<section class="about-container">
+<section class="container">
     <div class="about">
         <div class="about__left">
-            <h1>About Us</h1>
+            <h1 class="section-header">About Us</h1>
             <p>
                 Hon's Retreat was founded in 2016 by a group of friends sharing a
                 passion for the outdoors. Our retreat is located in the heart of the

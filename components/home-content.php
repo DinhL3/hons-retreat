@@ -11,13 +11,13 @@
                 Enjoy the beauty of nature and the tranquility of the great
                 outdoors.
             </p>
-            <a href="packages.php" class="button">See packages</a>
+            <a href="packages.php" class="button">Order a package</a>
         </div>
     </div>
 </section>
 <section>
     <div class="activities">
-        <h2>Make memories with your family</h2>
+        <h2 class="section-header">Make memories with your family</h2>
         <p>
             Participate in various outdoor activities, embrace the thrill of
             adventure, and the joy of quality time with your loved ones.

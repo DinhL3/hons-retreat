@@ -4,13 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
   /* background-color: var(--cream-white); */
-
-  h2 {
-    font-family: 'Bad Script', cursive;
-    font-size: 2rem;
-    margin-top: 2rem;
-  }
 
   .divider-icon {
     width: 50px;

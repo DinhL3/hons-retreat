@@ -62,6 +62,19 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100vw;
+  font-size: 0.8rem;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.section-header {
+  font-size: 2rem;
+  font-family: 'Bad Script', cursive;
 }
 
 .button {

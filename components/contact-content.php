@@ -1,7 +1,7 @@
-<section class="contact-container">
+<section class="container">
     <!-- Generate a form that request full name, , email address, phone number, and message as well as have a dummy “Send” button-->
     <div class="contact">
-        <h1>Contact Us</h1>
+        <h1 class="section-header">Contact Us</h1>
         <p>We will get back to you as soon as possible</p>
         <form action="/submit" method="post">
             <label for="name">Full Name</label>

@@ -1,22 +1,9 @@
-.contact-container {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
 .contact {
   display: flex;
   flex-direction: column;
   max-width: 500px;
   width: 100%;
   align-items: center;
-
-  h1 {
-    font-family: 'Bad Script', cursive;
-    font-weight: 700;
-    font-size: 2rem;
-  }
 
   form {
     display: flex;
