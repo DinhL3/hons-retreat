@@ -34,8 +34,6 @@ $mysqli->close();
 // Convert the holidays array to a JSON string
 $json = json_encode($holidays);
 
-// Print the JSON string for debugging
-error_log("JSON data: " . $json);
 ?>
 
 
