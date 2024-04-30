@@ -6,18 +6,17 @@
                 <!-- 3 radio options for Silver, Gold, and Diamond package -->
                 <div class="order__form-radio form-section">
                     <h3 class="form-header">Choose a package type</h3>
-                    <input type="radio" id="silver" name="package" value="silver" required checked />
+                    <input type="radio" id="silver" name="package" value="Silver Package" required checked />
                     <label for="silver">Silver</label>
-                    <input type="radio" id="gold" name="package" value="gold" required />
+                    <input type="radio" id="gold" name="package" value="Gold Package" required />
                     <label for="gold">Gold</label>
-                    <input type="radio" id="diamond" name="package" value="diamond" required />
+                    <input type="radio" id="diamond" name="package" value="Diamond Package" required />
                     <label for="diamond">Diamond</label>
                 </div>
                 <div class="order__package-info form-section">
                     <h3 class="form-header">Package description</h3>
-                    <p id="order__package-info__description">This is a 2-week holiday package</p>
-                    <p>Duration: 2 weeks</p>
-                    <p>Price: 5000 GBP per person</p>
+                    <p id="order__package-info__description"></p>
+                    <p>Price: <span id="order__package-info__price"></span> GBP per person</p>
                     <p>Children get 25% discount</p>
                 </div>
                 <div class="form-section order__num-people">
@@ -32,11 +31,11 @@
         </div>
         <div class="order__summary-wrapper">
             <h2>Summary</h2>
-            <p>Adult: 5 x 5000 £</p>
-            <p>Children: 2 x 3000 £</p>
-            <p>Total (VAT 0%): 15 £</p>
-            <p>VAT (20%): 3 £</p>
-            <p class="summary__price-total">Total: 110 £</p>
+            <p>Adult: <span id="num-adult"></span> x <span id="price-per-adult"></span> £</p>
+            <p>Children: <span id="num-children"></span> x <span id="price-per-child"></span> £</p>
+            <p>Total (VAT 0%): <span id="price-total-before-vat"></span> £</p>
+            <p>VAT (20%): <span id="vat-amount"></span> £</p>
+            <p class="summary__price-total">Total: <span id="price-total-after-vat"></span> £</p>
             <a href="#" class="button-dark">Proceed to payment</a>
         </div>
     </div>
